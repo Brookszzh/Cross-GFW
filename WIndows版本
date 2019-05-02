@@ -1,0 +1,7 @@
+建立host
+//来自lncn.org
+windows具体操作方法如下： 
+进入目录：C:/Windows/System32/drivers/etc 
+用记事本打开host文件，在最后一行添加信息： 69.194.14.16 lncn.org 
+打开命令行工具（win+R 输入cmd回车），执行：ipconfig /flushdns 
+此时重新刷新页面即可,如果此方式失效请还原host并用代理访问！
